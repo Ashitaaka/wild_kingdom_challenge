@@ -1,3 +1,8 @@
+:root{
+    --first-text-color : rgb(124, 119, 106);
+    --second-text-color : rgb(58, 56, 50);
+
+}
 
 *{
     box-sizing: border-box;
@@ -8,11 +13,14 @@
 body{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(232, 229, 221);
+    color: var(--second-text-color);
     height: 100vh;
 }
 
 h1, h2{
     font-family: 'Pirata One', serif;
+    color: var(--first-text-color);
 }
 
 h1{
@@ -24,9 +32,29 @@ h2{
 }
 
 main{
-  margin: auto; 
-  padding: 40px; 
+    max-width: 1920px;
+    margin: auto; 
+    padding: 40px; 
+}
+header{
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+}
+nav a{
+    color: var(--second-text-color);
+    font-weight: 700;
+    text-decoration: none;
 }
 .logo img{
-    width: 100px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 }

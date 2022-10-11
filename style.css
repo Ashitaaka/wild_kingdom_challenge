@@ -1,0 +1,32 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+h1, h2{
+    font-family: 'Pirata One', serif;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+main{
+  margin: auto; 
+  padding: 40px; 
+}
+.logo img{
+    width: 100px;
+}

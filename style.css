@@ -91,6 +91,8 @@ ul{
     margin-top: 1em;
 }
 
+/* ------------ Mise de la galerie photo ----------*/
+
 .gallery{
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +106,19 @@ ul{
     text-align: center;
 }
 
+/* ------------ Mise en forme du tableau ----------*/
 table{
     border-collapse: collapse;
     text-align: center;
     background-color: var(--light-bg-color);
     width:100%;
     margin: auto;
+}
+caption{
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+
 }
 th{
     width:20%;
@@ -125,3 +134,42 @@ td{
     border-top: 1px solid var(--ultra-light-bg-color);
 }
 
+/* ------------ Mise en forme du formulaire ----------*/
+
+form{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 2em;
+}
+#name, #email, #message{
+    width: 100%;
+}
+input{
+    padding:0.5em;
+    margin-bottom: 1em;
+}
+#message{
+    height : 200px;
+}
+#button{
+    padding: 0.5em 3em;
+    position: absolute;
+    right: 0;
+}
+
+/* ------------ Mise en forme du footer ----------*/
+
+footer{
+    background-color: var(--first-text-color);
+    color: var(--light-bg-color);
+    padding: 1em;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+footer em{
+    font-weight: 100;
+    font-style: normal;
+}

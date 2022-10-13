@@ -14,7 +14,7 @@
     <main>
       <header>
           <div class="logo">
-            <img src="../images/logo.png" alt="Wild kingdom" />
+            <a href="../../index.html"><img src="../images/logo.png" alt="Wild kingdom" /></a>
           </div>
           <nav>
             <ul>
@@ -26,19 +26,28 @@
           </nav>
         </header>
     
-        <section class="content">
+        <section class="content contact">
           <h1>
             Contact the Kingdom
           </h1>
-        <form action="" name="contact-form">
-          <input type="text" name="name" id="name" value="">
-          <input type="text" name="email" id="email" value="">
-          <textarea name="message" id="message"  cols="30" rows="10"></textarea>
-          <input type="button" name="button" id="button" value="Envoyer">
+        <form name="contact-form" id="contact-form">
+          <label for="name">Name :</label><br />
+          <input type="text" name="name" id="name" placeholder="Your name here" required><br />
+          <label for="email">Email :</label><br />
+          <input type="email" name="email" id="email" placeholder="Your email here" required><br />
+          <label for="message">Message :</label><br />
+          <textarea name="message" id="message"></textarea><br />
+          <input type="submit" value="Send" id="button">
         </form>
         </section>
+       
       </main>
-      
+      <footer>
+        <p>
+          Dev Tech Challenge - Olivier Gomez<br />
+          <em>Octobre 2022</em>
+        </p>
+      </footer>
         <!-- Connect the Javascript file -->
         <script src="../../script.js"></script>
   </body>
